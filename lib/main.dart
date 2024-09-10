@@ -48,3 +48,12 @@ Text(weatherInfo, textAlign: TextAlign.center), SizedBox(height: 20), ElevatedBu
 onPressed: fetchWeather, child: Text('Get Weather'), ), ], ), ), );
 }
 }
+
+class MyWidget extends StatelessWidget {
+  const MyWidget({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
